@@ -10,6 +10,8 @@
 
 
 
+
+
 def twosum(arr,target):
     # Taking two pointer i and iterate through each element
     n=len(arr)
@@ -22,5 +24,10 @@ def twosum(arr,target):
 arr=[2,7,11,15]
 target=9
 print(twosum(arr,target))
-                
 
+                
+#solution:
+# 1.Sort the array if it is not sorted .This is an essential step
+# 2.initialize two pointers
+# 3.iterate and find the pairs 
+# 4.repeate until a solution is ofund and return the result
